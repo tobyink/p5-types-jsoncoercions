@@ -1,0 +1,13 @@
+# This file provides instructions for packaging.
+
+@prefix : <http://ontologi.es/doap-deps#>.
+
+`Types-JsonCoercions`
+	:runtime-requirement    [ :on "JSON::PP"^^:CpanId ];
+	:runtime-recommendation [ :on "JSON::MaybeXS"^^:CpanId ];
+	:runtime-requirement    [ :on "Type::Library 1.004"^^:CpanId ];
+	:runtime-requirement    [ :on "Types::Standard 1.004"^^:CpanId ];
+	:test-requirement       [ :on "Test::More 0.96"^^:CpanId ];
+	:develop-recommendation [ :on "Dist::Inkt 0.001"^^:CpanId ];
+	.
+
