@@ -3,6 +3,7 @@
 @prefix : <http://ontologi.es/doap-deps#>.
 
 `Types-JsonCoercions`
+	:runtime-requirement    [ :on "perl 5.008009"^^:CpanId ];
 	:runtime-requirement    [ :on "JSON::PP"^^:CpanId ];
 	:runtime-recommendation [ :on "JSON::MaybeXS"^^:CpanId ];
 	:runtime-requirement    [ :on "Type::Library 1.004"^^:CpanId ];
